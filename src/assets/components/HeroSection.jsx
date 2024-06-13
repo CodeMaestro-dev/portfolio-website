@@ -4,11 +4,11 @@ import downloadIcon from "/assets/logo-icons/download-icon.svg";
 
 export default function HeroSection() {
   return (
-    <div className="text-white font-bold px-[50px] lg:px-[123px]">
+    <div className="text-white font-bold px-[10px] md:px-[50px] lg:px-[123px]">
       <h1 className="text-[#079211] text-[24px] md:text-[38px] mb-[10px] md:mb-0">
         Hello, I&apos;m Tioluwani Enoch Olubunmi
       </h1>
-      <h2 className="text-[50px] md:text-[88px] border-e-[6px] border-white w-fit pr-[45px] mb-[38px]">
+      <h2 className="text-[50px] md:text-[88px] border-e-[6px] border-white w-fit pr-0 md:pr-[45px] mb-[38px]">
         MERN Developer
       </h2>
       <p className=" font-normal text-[#808080] w-full  lg:w-[725px]">

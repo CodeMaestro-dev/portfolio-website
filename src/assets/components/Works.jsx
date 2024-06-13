@@ -8,7 +8,7 @@ import Project from "./Project";
 
 export default function Works() {
   return (
-    <div className="bg-[#313131] pt-[100px] pb-[128px] px-[50px] lg:px-[123px]">
+    <div className="bg-[#313131] pt-[100px] pb-[128px] px-[10px] md:px-[50px] lg:px-[123px">
       <div className="flex items-center gap-[2px]">
         <span className="border-t-[1.89842px] border-[#079211] w-[30px] text-[#313131]">ghjkjhgfd</span>
         <h3 className="text-[#079211] mb-[23px] font-bold">Recent Works</h3>

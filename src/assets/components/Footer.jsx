@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="bg-[#050507] px-[50px] lg:px-[123px] py-[48px] text-white">
+    <div className="bg-[#050507] px-[10px] md:px-[50px] lg:px-[123px] py-[48px] text-white">
       <div className=" border-b-[1px] border-[#313131] flex flex-col lg:flex-row gap-[50px] lg:gap-0 justify-between pr-[142px] pb-[68px]">
         <Link to="/" className="text-[24px]">
           CodeMaestro-dev<span className="text-[#079211] text-[30px]">.</span>{" "}
@@ -21,13 +21,13 @@ export default function Footer() {
           <ul>
             <li className="font-semibold text-[20px]">Social Media</li>
             <li className="text-[#808080] text-[16px]">
-              <a href="https://github.com/CodeMaestro-dev">GitHub</a>
+              <a href="https://github.com/CodeMaestro-dev" target="_blank">GitHub</a>
             </li>
             <li className="text-[#808080] text-[16px]">
-              <a href="https://x.com/EnochTiolu40212">Twitter</a>
+              <a href="https://x.com/EnochTiolu40212" target="_blank">Twitter</a>
             </li>
             <li className="text-[#808080] text-[16px]">
-              <a href="https://www.linkedin.com/in/tioluwani-olubunmi-52557428b/">
+              <a href="https://www.linkedin.com/in/tioluwani-olubunmi-52557428b/" target="_blank">
                 LinkedIn
               </a>
             </li>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center gap-[20px] md:gap-0 justify-between pt-[26px]">
-        <p>
+        <p className="text-center">
           Design by <span className="text-[#079211]">Alifreza</span> and
           developed by <span className="text-[#079211]">CodeMaestro-dev</span>
         </p>

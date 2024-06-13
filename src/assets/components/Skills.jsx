@@ -2,7 +2,7 @@ import Skill from "./Skill";
 
 export default function Skills() {
   return (
-    <div className="text-white px-[50px] lg:px-[123px] my-[120px]">
+    <div className="text-white px-[10px] md:px-[50px] lg:px-[123px my-[120px]">
       <h2 className="font-bold text-[46px]">2+ years experience developing</h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px] mt-[90px]">

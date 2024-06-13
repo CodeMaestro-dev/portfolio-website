@@ -51,7 +51,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between h-full bg-[#101017] py-[120px] font-mono">
+    <div className="flex flex-col items-center justify-between h-full bg-[#101017] pt-[50px] pb-[120px] font-mono">
       <div className="flex flex-col items-center gap-10">
         <h1 className="text-[#079211] font-bold text-3xl mt-32">
           Send me a message.

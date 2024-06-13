@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function ContactMe() {
   return (
-    <div className="bg-[#0A0A0F] border-l-[10px] border-[#079211] flex flex-col lg:flex-row justify-between items-start lg:items-center h-full px-[50px] lg:px-[123px] py-[63px]">
+    <div className="bg-[#0A0A0F] border-l-[10px] border-[#079211] flex flex-col lg:flex-row justify-between items-start lg:items-center h-full px-[10px] md:px-[50px] lg:px-[123px py-[63px]">
       <div>
         <h3 className="font-bold text-[26px] md:text-[38px] text-white">
           Have any project in mind ?
