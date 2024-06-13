@@ -57,7 +57,7 @@ export default function Contact() {
           Send me a message.
         </h1>
         <p className="text-[#079211]">{success}</p>
-        <form className="flex flex-col gap-5" onSubmit={HANDLE_SUBMIT}>
+        <form className="flex flex-col gap-5 w-full" onSubmit={HANDLE_SUBMIT}>
           <Input type="text" name="name" placeholder="Your Full Name" />
           <Input type="name" name="email" placeholder="Your Email" />
           <Input type="number" name="phoneno" placeholder="Your Phone Number" />
@@ -65,7 +65,7 @@ export default function Contact() {
             placeholder="Your Message"
             name="message"
             id="message"
-            className="bg-[#2B2B2B] focus:bg-slate-500 ps-5 py-3 w-96 rounded-md text-white"
+            className="bg-[#2B2B2B] focus:bg-slate-500 ps-5 py-3 w-full md:w-96 rounded-md text-white"
           ></textarea>
           <Input type="submit" value="Contact Me" />
           <p className="text-red-500">{error}</p>

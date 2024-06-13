@@ -4,14 +4,14 @@ import downloadIcon from "/assets/logo-icons/download-icon.svg";
 
 export default function HeroSection() {
   return (
-    <div className="text-white font-bold px-[123px]">
-      <h1 className="text-[#079211] text-[38px]">
+    <div className="text-white font-bold px-[50px] lg:px-[123px]">
+      <h1 className="text-[#079211] text-[24px] md:text-[38px] mb-[10px] md:mb-0">
         Hello, I&apos;m Tioluwani Enoch Olubunmi
       </h1>
-      <h2 className="text-[88px] border-e-[6px] border-white w-fit pr-[45px] mb-[38px]">
+      <h2 className="text-[50px] md:text-[88px] border-e-[6px] border-white w-fit pr-[45px] mb-[38px]">
         MERN Developer
       </h2>
-      <p className=" font-normal text-[#808080] w-[725px]">
+      <p className=" font-normal text-[#808080] w-full  lg:w-[725px]">
         Hello! I’m a passionate web developer from Nigeria with over 2 years of
         experience. My journey into web development began in secondary school,
         where I discovered my passion for creating websites. I had

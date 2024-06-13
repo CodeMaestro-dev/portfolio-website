@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="bg-[#050507] px-[123px] py-[48px] text-white">
-      <div className=" border-b-[1px] border-[#313131] flex justify-between pr-[142px] pb-[68px]">
+    <div className="bg-[#050507] px-[50px] lg:px-[123px] py-[48px] text-white">
+      <div className=" border-b-[1px] border-[#313131] flex flex-col lg:flex-row gap-[50px] lg:gap-0 justify-between pr-[142px] pb-[68px]">
         <Link to="/" className="text-[24px]">
           CodeMaestro-dev<span className="text-[#079211] text-[30px]">.</span>{" "}
         </Link>
-        <div className="flex gap-[114px]">
+        <div className="flex flex-col md:flex-row gap-[50px] lg:gap-[144px]">
           <ul>
             <li className="font-semibold text-[20px]">Information</li>
             <li className="text-[#808080] text-[16px]">+234 903 725 4275</li>
@@ -34,7 +34,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex justify-between pt-[26px]">
+      <div className="flex flex-col md:flex-row items-center gap-[20px] md:gap-0 justify-between pt-[26px]">
         <p>
           Design by <span className="text-[#079211]">Alifreza</span> and
           developed by <span className="text-[#079211]">CodeMaestro-dev</span>
