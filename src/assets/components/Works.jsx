@@ -23,7 +23,7 @@ export default function Works() {
         <Project link="https://code-maestro-quizard.netlify.app" img={quizApp} project="A quiz app using HTML, CSS, and JavaScript"/>
         <Project link="https://reminderrealm.netlify.app" img={reminderApp} project="A reminder app using HTML, CSS, and JavaScript to access the Notification API"/>
         <Project link="https://tioluwa-uncontrolled-react-form.vercel.app" img={simpleFormWithValidation} project="An uncontrolled form with form validations using React and Tailwind"/>
-        <Project link="https://rest-country-api-nine-pied.vercel.app" img={restCountryAPI} project="Made a country details website with the use of HTML, Tailwind CSS, and JS for fecthing from the rest-country API"/>
+        <Project link="https://rest-country-api-nine-pied.vercel.app" img={restCountryAPI} project="I made a country details website with the use of HTML, Tailwind CSS, and JS for fecthing from the rest-country API"/>
       </div>
     </div>
   );
