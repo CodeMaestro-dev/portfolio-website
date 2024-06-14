@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
-
   const SET_SHOW = () => {
     setShow(!show);
   };
+
+
 
   return (
     <div className="bg-[#101017] px-[20px] lg:px-[123px] py-[23px] text-white font-bold flex flex-col items-center gap-[20px] md:gap-0 md:flex-row fixed w-full justify-between font-mono">
@@ -33,8 +34,8 @@ export default function Navbar() {
         </div>
       </div>
 
-      {!show ? (
-        <ul className="flex flex-col gap-[10px] items-center">
+      {show ? (
+        <ul className="flex md:hidden flex-col gap-[10px] items-center">
           <li>
             <Link to="/">Home</Link>
           </li>
