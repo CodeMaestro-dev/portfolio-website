@@ -12,7 +12,7 @@ export default function HeroSection() {
         MERN Developer
       </h2>
       <p className=" font-normal text-[#808080] w-full  lg:w-[725px]">
-        Hello! I’m a passionate web developer from Nigeria with over 2 years of
+        Hello! I’m a passionate 16 year old web developer from Nigeria with over 2 years of
         experience. My journey into web development began in secondary school,
         where I discovered my passion for creating websites. I had
         the opportunity to further hone my skills during an internship at
