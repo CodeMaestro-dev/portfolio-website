@@ -61,10 +61,11 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col items-center justify-between h-full bg-[#101017] pt-[50px] pb-[120px] font-mono">
-      <div className="flex flex-col items-center gap-10 w-full md:w-96">
-        <h1 className="text-[#079211] font-bold text-3xl mt-32">
+      <div className="flex flex-col items-center w-full md:w-96">
+        <h1 className="text-[#079211] font-bold text-3xl mt-32 mb-10">
           Send me a message.
         </h1>
+        <p className="text-red-500 text-center">{error}</p>
         <p className="text-[#079211] text-center w-full px-[10px]">{success}</p>
         <form
           className="flex flex-col gap-5 w-full px-[10px]"
@@ -90,7 +91,6 @@ export default function Contact() {
               "Contact Me"
             )}
           </button>
-          <p className="text-red-500 text-center">{error}</p>
         </form>
       </div>
     </div>
