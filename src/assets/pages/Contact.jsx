@@ -80,7 +80,6 @@ export default function Contact() {
             id="message"
             className="bg-[#2B2B2B] focus:bg-slate-500 ps-5 py-3 w-full rounded-md text-white"
           ></textarea>
-          {/* <Input type="submit" value="Contact Me" /> */}
           <button
             type="submit"
             className="bg-[#079211] focus:bg-slate-500 py-3 w-full rounded-md text-white cursor-pointer hover:bg-slate-500 transition-all uppercase font-bold"
