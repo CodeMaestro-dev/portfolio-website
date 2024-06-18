@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import quizApp from "/assets/images/quiz-app.png"
 import reminderApp from "/assets/images/reminder-app.png"
 import simpleFormWithValidation from "/assets/images/simple-form-with-validations.png"
@@ -22,12 +21,12 @@ export default function Projects() {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-[20px] gap-y-[48px] mt-[90px]">
         <Project link="https://countzz.netlify.app" img={countzz} project="Made a little project with HTML, CSS and JavaScript for bus loaders to count their passangers and keep a log of them."/>
-        <Project link="https://code-maestro-tomorro.netlify.app" img={tomorroClone} project="I cloned the tomorro website with HTML, Bootstrap, JavaScript"/>
-        <Project link="https://code-maestro-quizard.netlify.app" img={quizApp} project="A quiz app using HTML, CSS, and JavaScript"/>
-        <Project link="https://reminderrealm.netlify.app" img={reminderApp} project="A reminder app using HTML, CSS, and JavaScript to access the Notification API"/>
+        <Project link="https://code-maestro-tomorro.netlify.app" img={tomorroClone} project="I cloned the tomorro website with HTML, Bootstrap, JavaScript."/>
+        <Project link="https://code-maestro-quizard.netlify.app" img={quizApp} project="A quiz app using HTML, CSS, and JavaScript."/>
+        <Project link="https://reminderrealm.netlify.app" img={reminderApp} project="A reminder app using HTML, CSS, and JavaScript to access the Notification API."/>
         <Project link="https://my-mini-e-shop.netlify.app" img={miniEShop} project="Made a little project with React and Bootstrap when I first started learning React."/>
-        <Project link="https://tioluwa-uncontrolled-react-form.vercel.app" img={simpleFormWithValidation} project="An uncontrolled form with form validations using React and Tailwind"/>
-        <Project link="https://rest-country-api-nine-pied.vercel.app" img={restCountryAPI} project="I made a country details website with the use of HTML, Tailwind CSS, and JavaScript for fecthing from the rest-country API"/>
+        <Project link="https://tioluwa-uncontrolled-react-form.vercel.app" img={simpleFormWithValidation} project="An uncontrolled form with form validations using React and Tailwind."/>
+        <Project link="https://rest-country-api-nine-pied.vercel.app" img={restCountryAPI} project="I made a country details website with the use of HTML, Tailwind CSS, and JavaScript for fecthing from the rest-country API."/>
         <Project link="https://tioluwani-enoch-olubunmi.onrender.com" img={portfolioWebsite} project="Made my first portfolio website using the MERN stack. React and Tailwind CSS for the frontend Node JS, Express, and Nodemainler for sending mails in the backend."/>
       </div>
 
