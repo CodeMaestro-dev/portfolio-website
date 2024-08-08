@@ -1,3 +1,7 @@
+import banah from "/assets/images/banah.png"
+import gadgetSite from "/assets/images/gadget-site.png"
+import ssrTodoNext from "/assets/images/ssr-todos-next.png"
+import bookDirectory from "/assets/images/node-js-and-mongo-db.png"
 import quizApp from "/assets/images/quiz-app.png"
 import reminderApp from "/assets/images/reminder-app.png"
 import simpleFormWithValidation from "/assets/images/simple-form-with-validations.png"
@@ -28,6 +32,10 @@ export default function Projects() {
         <Project link="https://tioluwa-uncontrolled-react-form.vercel.app" img={simpleFormWithValidation} project="An uncontrolled form with form validations using React and Tailwind."/>
         <Project link="https://rest-country-api-nine-pied.vercel.app" img={restCountryAPI} project="I made a country details website with the use of HTML, Tailwind CSS, and JavaScript for fecthing from the rest-country API."/>
         <Project link="https://tioluwani-enoch-olubunmi.onrender.com" img={portfolioWebsite} project="Made my first portfolio website using the MERN stack. React and Tailwind CSS for the frontend Node JS, Express, and Nodemainler for sending mails in the backend."/>
+        <Project link="https://github.com/CodeMaestro-dev/banah.js" img={banah} project="Start up your NodeJS projects with ease. No need to install Express, CORS, or the basic things you need for a NodeJS project. We got you covered."/>
+        <Project link="https://gadget-e-commerce-website.vercel.app" img={gadgetSite} project="A gadget e-commerce website built with ReactJS, SASS/SCSS, Formik for from validations, and Redux for state management. However, I didn't make it much interactive. I was just trying to master my Frontend Cloning skills."/>
+        <Project link="https://ssr-todo-app.vercel.app" img={ssrTodoNext} project="A simple todo app built with NextJS, TailwindCSS, and Redux for state management. I used the Next JS API Endpoints to make the API calls to the CRUD operations. I also leveraged Next JS Server Side Rendering to make the app interactive."/>
+        <Project link="https://book-directory-1a97.onrender.com" img={bookDirectory} project="A book directory REST API with NodeJS, Express, and Mongoose using MongoDB as my database. I used the Node JS API Endpoints to make the API calls to the CRUD operations."/>
       </div>
 
       <p className="text-[#079211] text-[24px] text-center mt-[100px]">More still to come</p>
