@@ -30,12 +30,12 @@ export default function HeroSection() {
         </Link>
 
         <a
-          href="/assets/documents/tioluwani-enoch-olubunmi-cv.pdf"
+          href="/assets/documents/tioluwani-enoch-olubunmi-resume.pdf"
           className="flex gap-[10px]"
           download
         >
           <img src={downloadIcon} role="presentation" />
-          <span>Download CV</span>
+          <span>Download Resume</span>
         </a>
       </div>
     </div>
