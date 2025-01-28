@@ -60,8 +60,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between h-full bg-[#101017] pt-[50px] pb-[120px] font-mono">
-      <div className="flex flex-col items-center w-full md:w-96">
+    <div className="flex flex-col items-center justify-between h-screen bg-[#101017] pt-[50px] pb-[120px] font-mono">
+      <div className="flex flex-col items-center w-full md:w-[800px]">
         <h1 className="text-[#079211] font-bold text-3xl mt-32 mb-10">
           Send me a message.
         </h1>
